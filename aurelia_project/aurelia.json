@@ -140,7 +140,11 @@
             "main": "index",
             "resources": [
               "./button/ux-button.html",
-              "./button/ux-button-theme.css"
+              "./button/ux-button-theme.css",
+              "./progress/ux-progress.html",
+              "./progress/ux-progress-theme.css",
+              "./spinner/ux-spinner.html",
+              "./spinner/ux-spinner-theme.css"
             ]
           }
         ]
