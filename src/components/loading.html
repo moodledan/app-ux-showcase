@@ -1,0 +1,67 @@
+<template>
+  <require from='../common.css#ux'></require>
+  <require from="./loading.css#ux"></require>
+
+  <main styles.main>
+    <h1 styles.header>
+      &lt;ux-progress&gt;&lt;/ux-progress&gt;
+    </h1>
+
+    <p styles.description>
+      The <code>ux-progress</code> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget quam vel libero consequat placerat a accumsan ante. Nullam semper elit purus, non posuere felis bibendum quis.
+    </p>
+
+    <section styles.feature>
+      <figure styles.figure>
+        <ux-progress type="progressDeterminate">Loading</ux-progress>
+
+        <code>
+          type="progressDeterminate"
+        </code>
+      </figure>
+
+      <figure styles.figure>
+        <ux-progress type="progressIndeterminate">Loading</ux-progress>
+
+        <code>
+          type="progressIndeterminate"
+        </code>
+      </figure>
+    </section>
+
+    <h1 styles.header>
+      &lt;ux-spinner&gt;&lt;/ux-spinner&gt;
+    </h1>
+
+    <p styles.description>
+      The <code>ux-spinner</code> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget quam vel libero consequat placerat a accumsan ante. Nullam semper elit purus, non posuere felis bibendum quis.
+    </p>
+
+    <section styles.feature>
+      <figure styles.figure>
+        <ux-spinner size="small">Loading</ux-spinner>
+
+        <code>
+          size="small"
+        </code>
+      </figure>
+
+      <figure styles.figure>
+        <ux-spinner>Loading</ux-spinner>
+
+        <code>
+          size="medium"
+        </code>
+      </figure>
+
+      <figure styles.figure>
+        <ux-spinner size="large">Loading</ux-spinner>
+
+        <code>
+          size="large"
+        </code>
+      </figure>
+    </section>
+
+  </main>
+</template>
